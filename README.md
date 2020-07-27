@@ -10,6 +10,6 @@ main.R will generate most of the figures and results
 
 Nested_CV_AUC_CARET.R will generate nested cross validation to robustely estimate the performance of each model when hyperparameter have been optimised.
 
-- in l8 "folds <- createFolds(data$insulinRequire, k = k)" please do change insulinRequire by your outcome.
+- l8 "folds <- createFolds(data$insulinRequire, k = k)" please do change insulinRequire by your outcome.
 
--change the outcomes labels to X1 and X2
+- change the outcomes labels to X1 and X2
